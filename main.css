@@ -4,7 +4,7 @@
     width: 100%;
     z-index: -1;
     /* background-repeat: no-repeat; */
-    /* background-size: cover; */
+    background-size: cover;
     position: fixed;
     cursor: url('assets/NL-CC-closed.svg'), auto;	
     }
@@ -42,6 +42,8 @@
     
 .monika-container {
     width: 50%;
+    display: block;
+    margin: 0 auto;
     justify-content: center;
     align-items: center;
 }
