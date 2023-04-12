@@ -55,9 +55,9 @@
     align-items: center;
     padding-top: 20%;
 }
-    .text-container {
+    nav ul {
         display: flex;
-        grid-gap: 100px;
+        /* grid-gap: 100px; */
         justify-content: center;
         align-items: center;
         text-transform: uppercase;
@@ -65,9 +65,12 @@
         font-weight: 700;
         font-size: 15px;
         padding:3%;
-
+        list-style: none
         }
-        .text-container:hover  {
+        nav ul li{
+            padding:10px;
+        }
+        nav ul li:hover  {
             text-transform: lowercase; 
             text-align: center;
             position: relative;
