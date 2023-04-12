@@ -1,13 +1,7 @@
-.video-background {
-    background-image: url(assets/hero-new.mp4);
+body {
+    background-image: url(assets/hero.mp4);
     height: 5000px;
     background-repeat: no-repeat;
-    height: 100%;
-    width: 100%;
-    top: 0px;
-    left: 0px;
-    z-index: -1;
-    /* background-repeat: no-repeat; */
     background-size: cover;
     position: fixed;
     cursor: url('assets/NL-CC-closed.svg'), auto;
